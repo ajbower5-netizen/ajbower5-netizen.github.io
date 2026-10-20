@@ -14,4 +14,4 @@ This schematic is design to support .... (highlight functionally, power, and con
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](ExampleSchematic.pdf), and the Zip folder of the project [*here*](dummyZip.zip).
+The schematic as a PDF download is available [*here*](file:///C:/Users/hexle/OneDrive/Documents/Code/Kicad/Test/Subsystem_Schematic_Design.pdf), and the Zip folder of the project [*here*](dummyZip.zip).
