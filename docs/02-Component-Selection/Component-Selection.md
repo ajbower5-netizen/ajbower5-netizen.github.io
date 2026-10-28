@@ -8,9 +8,7 @@ title: Component Selection Example
 
 > This is the example found in the assignment, uses more html
 
-*Table 1: Example component selection*
-
-**Butten**
+**Table 1: Butten**
 
 | **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -20,14 +18,12 @@ title: Component Selection Example
 | <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/fcf6c5a5-26fa-4330-80e9-230cb6796490" />
 )<br>\* Option 3. <br>\* 3432 <br>\* $2.50/each <br>\* [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed                                                         |
 
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
+**Choice:** Option 3: 3432
 
 **Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
 
 
-*Table 2: Example component selection*
-
-**Servo Motor**
+**Table 2: Servo Motor**
 
 | **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
@@ -37,75 +33,31 @@ title: Component Selection Example
 | <img width="688" height="675" alt="image" src="https://github.com/user-attachments/assets/f5dadd0a-bc71-47dd-8579-ce37357b730f" />
 <br>\* Option 3. <br>\* Deegoo-FPV MG995 Metal Gear Digital Servos, 2-Pack <br>\* $13.98 for 2 <br>\* [Link to product](https://www.amazon.com/dp/B0D7M3BBL2?lv=shuf&crid=3Q0BAZ9VMEE7Y&keywords=servo%2Bmotor&sprefix=servo%2Bmotor%2Caps%2C192&th=1&dib_tag=se&dib=eyJ2IjoiMSJ9.Vd0le04U5HEn6F5FTOqf3NZUio8AlbPOcNYl6K9qjZCFdjZ-86Uf_VUW2kQvW5lEkKBASMPt48w_hvz_ZKEd0b98d_bJPX3GE_DsjerZF52DEv42lapNeH8mmhSib2Oun_1prqIwyNgb75FJjebvuonsNj9Gfu3RtY_B5E8jXg5t2j1dD_BfRmutLHijj1Ay-uPGGKrLCrts0llxFLMgQ7Ec_W-iaFDOt_WikPXdNw5h_ALm_L1ybSQhKAFjqpMsuUl1EJtG8wOjO0M0__76OLKVLd8cosWYgi4FyujYN8A.0kKpV2PRGojCPBZDg21vC8NbbwmfUIvxmfVHn4JixOU&qid=1792618809&sr=8-9&channelId=500&ref_=sr_1_9&plpRedirect=mhFallback) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed                                                         |
 
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
+**Choice:** Option 2: Deegoo-FPV MG995 Metal Gear Digital Servos, 2-Pack
 
 **Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
 
 
-*Table 3: Example component selection*
-
-**H Bridge**
+**Table 3: H Bridge**
 
 | **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| <img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/6fba08c0-3eb7-4721-9348-0563ebb3f782" /> <br>Option 1.<br> 30-17 RED<br>$11.38/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/sunfounder/CN0023/18668611)                 | \* Inexpensive[^1]<br>\* Compatible with PSoC<br>\* Meets surface mount constraint of project                                               | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
-| <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/60d128ba-52ab-4a7d-ba5b-09bc7d829a5b" />
-<br>\* Option 2. <br>\* 900-00005 <br>\* $17.95/each <br>\* [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed                                                         |
-| ![](image3.png)<br>\* Option 3. <br>\* CTX936TR-ND surface mount oscillator <br>\* $1/each <br>\* [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed                                                         |
+| <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/0213ec06-1ef1-4a44-9ef9-773b8f8d7f0a" /> <br>Option 1.<br> HIP4082IBZT <br> $7.73/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/renesas-electronics-corporation/HIP4082IBZT/1034533)                 | \* Inexpensive[^1]<br>\* Compatible with PSoC<br>\* Meets surface mount constraint of project                                               | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
+| <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/2839a5d4-a8a0-4efb-997e-b8e7fdf6d11b" /> <br>\* Option 2. <br>\* FAN8100N <br>\* $1.16/each <br>\* [Link to product](https://www.digikey.com/en/products/detail/fairchild-semiconductor/FAN8100N/11558200) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed                                                         |                                                       |
 
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
+**Choice:** Option 2: FAN8100N
 
 **Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
 
 
-*Table 4: Example component selection*
-
-**DC Motor**
+**Table 4: DC Motor**
 
 | **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| <img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/6fba08c0-3eb7-4721-9348-0563ebb3f782" /> <br>Option 1.<br> 30-17 RED<br>$20.35/each <br>\* [Link to product]([http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940](https://www.digikey.com/en/products/detail/grayhill-inc/30-17-RED/2417137))                 | \* Inexpensive[^1]<br>\* Compatible with PSoC<br>\* Meets surface mount constraint of project                                               | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
-| ![](image3.png)<br>\* Option 2. <br>\* CTX936TR-ND surface mount oscillator <br>\* $1/each <br>\* [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed                                                         |
-| ![](image3.png)<br>\* Option 3. <br>\* CTX936TR-ND surface mount oscillator <br>\* $1/each <br>\* [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed                                                         |
+| <img width="327" height="322" alt="image" src="https://github.com/user-attachments/assets/3fae904b-96fb-4195-850a-992658e5578c" /> <br>Option 1.<br> 8Pack DC Motor 3V-12V 280 Micro Motor for DIY Airplane RC Boat Toys <br>$17.99 for 8 <br>\* [Link to product](https://www.amazon.com/dp/B09TRLQRWD?lv=shuf&psc=1&crid=3A4VUFBWEPQ5S&keywords=motor+9V&sprefix=motor+9v%2Caps%2C219&dib_tag=se&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&dib=eyJ2IjoiMSJ9.U9cjSg8-6QPweTbSzZwTn9ML5nf0c5GKgzevv1k7PG9WyVJRTEXvduOBeIXbN6Gytp74CdKmRCQTT8Ry0BST538yRWlNJBdRTlmx1jM8ynLczQ6ItBlnwgXVeLZCdV11I9gIi7VbsPh9umT85pOE3_57rKwdanbqNNxTDv0vXGSx28JHlajGs44-9uBwQICG9AfoIOi_okymcfx_Ohi4aJ-WmREM7e5frriz0A_63xHcRQ0B3nC8y41bTFc1rYjoThU4JLk_DE5au5Nk14xIYNaqztDuCfllns9_2_T96so.ObzpisFkaTsLuNwvnwXDhVyXZgEJC1Y04fBMWC_-aGI&qid=1792617933&sr=8-2-spons&channelId=500&ref_=sr_1_2_sspa&plpRedirect=mhFallback)                 | \* Inexpensive[^1]<br>\* Compatible with PSoC<br>\* Meets surface mount constraint of project                                               | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
+| <img width="330" height="342" alt="image" src="https://github.com/user-attachments/assets/ef5be328-ea9a-43c6-b0e7-bcb95564d4cb" /> <br>\* Option 2. <br>\* 9V Heavy Duty DC Motor 12,500 RPM Max (1.08" Diameter x 1.48" Length) - EX ELECTRONIX EXPRESS <br>\* $2.99/each <br>\* [Link to product](https://www.amazon.com/dp/B0BG95Z6NC?lv=shuf&crid=3A4VUFBWEPQ5S&keywords=motor%2B9V&sprefix=motor%2B9v%2Caps%2C219&th=1&dib_tag=se&dib=eyJ2IjoiMSJ9.U9cjSg8-6QPweTbSzZwTn9ML5nf0c5GKgzevv1k7PG9WyVJRTEXvduOBeIXbN6Gytp74CdKmRCQTT8Ry0BST538yRWlNJBdRTlmx1jM8ynLczQ6ItBlnwgXVeLZCdV11I9gIi7VbsPh9umT85pOE3_57rKwdanbqNNxTDv0vXGSx28JHlajGs44-9uBwQICG9AfoIOi_okymcfx_Ohi4aJ-WmREM7e5frriz0A_63xHcRQ0B3nC8y41bTFc1rYjoThU4JLk_DE5au5Nk14xIYNaqztDuCfllns9_2_T96so.ObzpisFkaTsLuNwvnwXDhVyXZgEJC1Y04fBMWC_-aGI&qid=1792617933&sr=8-14&channelId=500&ref_=sr_1_14&plpRedirect=mhFallback) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed                                                         |
+| <img width="460" height="402" alt="image" src="https://github.com/user-attachments/assets/3ba615ca-bf87-4b73-a2f8-b9461fdac5bf" /> <br>\* Option 3. <br>\* 5PCS Mini N20 Gear Motor DC 3V-9V Slow Speed Full Metal Gearbox DIY Robot Car <br>\* $15.99 for 5 <br>\* [Link to product](https://www.amazon.com/dp/B095K1QKKX?lv=shuf&crid=3A4VUFBWEPQ5S&keywords=motor+9V&sprefix=motor+9v%2Caps%2C219&dib_tag=se&dib=eyJ2IjoiMSJ9.U9cjSg8-6QPweTbSzZwTn9ML5nf0c5GKgzevv1k7PG9WyVJRTEXvduOBeIXbN6Gytp74CdKmRCQTT8Ry0BST538yRWlNJBdRTlmx1jM8ynLczQ6ItBlnwgXVeLZCdV11I9gIi7VbsPh9umT85pOE3_57rKwdanbqNNxTDv0vXGSx28JHlajGs44-9uBwQICG9AfoIOi_okymcfx_Ohi4aJ-WmREM7e5frriz0A_63xHcRQ0B3nC8y41bTFc1rYjoThU4JLk_DE5au5Nk14xIYNaqztDuCfllns9_2_T96so.ObzpisFkaTsLuNwvnwXDhVyXZgEJC1Y04fBMWC_-aGI&qid=1792617933&sr=8-22&channelId=500&ref_=sr_1_22&plpRedirect=mhFallback) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed                                                         |
 
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
-
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
-
-
-
-### Style 2
-
-> Also acceptable, more markdown friendly
-
-**External Clock Module**
-
-1. XC1259TR-ND surface mount crystal
-
-    ![](image1.png)
-
-    * $1/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
-
-    | Pros                                      | Cons                                                             |
-    | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
-
-1. CTX936TR-ND surface mount oscillator
-
-    ![](image3.png)
-
-    * $1/each
-    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
-
-    | Pros                                                              | Cons                |
-    | ----------------------------------------------------------------- | ------------------- |
-    | Outputs a square wave                                             | More expensive      |
-    | Stable over operating temperature                                 | Slow shipping speed |
-    | Direct interface with PSoC (no external circuitry required) range |
-
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
+**Choice:** Option 2: 9V Heavy Duty DC Motor 12,500 RPM Max (1.08" Diameter x 1.48" Length) - EX ELECTRONIX EXPRESS
 
 **Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
