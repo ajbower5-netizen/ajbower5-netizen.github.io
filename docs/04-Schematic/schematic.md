@@ -7,7 +7,8 @@ title: Schematic
 This schematic is design to support .... (highlight functionally, power, and controller).
 
 
-<img width="788" height="442" alt="image" src="https://github.com/user-attachments/assets/83e0957a-9cd7-4b5c-ab38-4b1b4834cc79" />
+<img width="1416" height="791" alt="image" src="https://github.com/user-attachments/assets/535deec9-6c5e-4e7c-92ae-cd3ca69a7361" />
+
 
 **Figure ##:** Showing a example schematic.
 
